@@ -1,0 +1,68 @@
+.page img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 100%;
+    /* max-width: 480px; */
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.composer {
+    font-family: 'Cinzel', serif;
+    width: 43%;
+    text-align: right;
+}
+
+.piece-div {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.piece {
+    width: 57%;
+}
+
+.hanging {
+    padding-left: 20px;
+    text-indent: -20px;
+}
+
+.mvts {
+    padding-left: 30px;
+    font-style: italic;
+}
+
+.icon {
+    height: 0.8em;
+}
+
+a.score {
+    padding-left: 10px;
+}
+
+#main {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+
+/*
+ * Increase click area for arrow
+ */
+a.arrow {
+    position: relative;
+}
+a.arrow:active {
+    background: black;
+}
+a.arrow:after{
+    content:"";
+    height: 200%;
+    width: 200%;
+    top: -50%;
+    left: -.5em;
+    position: absolute;
+}
